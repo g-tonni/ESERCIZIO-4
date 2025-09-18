@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+*/
+
+/*
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+*/
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.8em;
+}
+
+.sidebar-icon p{
+    margin: 0;
+}
+
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+}
+
+
+
+
+#main {
+    width: 100%;
+}
+
+#topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+#logo {
+    height: 50%;
+}
+
+#search {
+    height: 50%;
+    display: flex;
+}
+
+#search input {
+    width: 25em;
+}
+
+#tasto-ricerca ion-icon{
+    padding: 0 0.8em;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+#mic {
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+
+#mic ion-icon{
+    font-size: 1.5em;
+}
+
+#icone-destra {
+    display: flex;
+}
+
+.icone-destra ion-icon {
+    font-size: 1.5em;
+    padding: 0 0.3em;
+}
+
+#content {
+    height: 100%;
+}
+
+.riga-video {
+    display: flex;
+    justify-content: space-around;
+    height: 40%;
+    margin-bottom: 3em;
+}
+
+.video {
+    padding: 2em;
+    width: 33%;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.descrizione {
+    display: flex;
+    height: 20%;
+    padding: 0.3em 0;
+    align-items: center;
+}
+
+.logo-piccolo{
+    height: 80%;
+    padding: 0.3em;
+}
+
+.logo-piccolo img{
+    height: 100%;
+}
+
+.titolo-e-descrizione {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0.5em;
+
+}
+
+.titolo-e-descrizione p {
+    margin: 0.3em;
+}
+
+.titolo {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: medium;
+}
+
+.descrizione-piccola {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: small;
+}
